@@ -5,7 +5,7 @@ import commonjs from 'rollup-plugin-commonjs';
 import babel from 'rollup-plugin-babel';
 
 const prod = process.env.NODE_ENV === 'production',
-    moduleName = 'store';
+    moduleName = 'Store';
 
 const { name, plugin } = function() {
     return prod ? {
